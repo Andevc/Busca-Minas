@@ -25,7 +25,8 @@ Se llena la matrix con "---" para que no este vacia y no de errores.
 ```
 
 ### 3. Llenar la matriz con las Minas
-Llenar las minas aleatoriamente con la funcion **ramdom** multiplicandolo por n y haci obtener una posicion aleatoria y agregarla a la matriz **A**.
+Llenar las minas aleatoriamente con la funcion **ramdom** multiplicandolo por n y haci obtener una posicion aleatoria y agregarla a la matriz **A**. 
+Las minas son: **<*>**
 ```Java
 
   static public void tnt(int n) {
@@ -206,7 +207,7 @@ Entrada de **x** & **y**
     
 ```
 -----------------------------------------------------------------------------------------------------------------------------
-- Si las coordenadas dadas esta en una posición donde no hay una Mina:
+- Si las coordenadas dadas esta en una posición donde no hay una Mina y se llena con **(+)**:
 ``` Java
 
     else {
