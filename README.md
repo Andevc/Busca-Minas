@@ -178,8 +178,7 @@ Entrada de **x** & **y**
 - Si las coordenadas dadas son fuera de rango:
 ```Java
 
-    if (x == 0 || y == 0 || x > n || y > n) { System.out.println("\n\t-x----- Coordenadas Fuera de Rango -----x-\n"); }
-    
+    if (x == 0 || y == 0 || x > n || y > n) { System.out.println("\n\t-x----- Coordenadas Fuera de Rango -----x-\n"); }    
 ```
 -----------------------------------------------------------------------------------------------------------------------------
 - Si las coordenadas dadas estan en la posición de una Mina: 
