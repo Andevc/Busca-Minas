@@ -141,7 +141,7 @@ Esta funcion cuenta las minas que hay alrededor de la posición dada
 
 **Si** la opcion es 5 el juego acaba
 ``` Java
-    System.out.println("\n-x------------------------- ADIOS T-T ---------------------------x-\n");
+  System.out.println("\n-x------------------------- ADIOS T-T ---------------------------x-\n");
 ```
 
 #### 6.3 Mostrando el Juego
