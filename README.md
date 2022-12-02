@@ -138,12 +138,12 @@ Esta funcion cuenta las minas que hay alrededor de la posición dada
     }
 
 ```
------------------------------------------------------------------------------------------------------------------------------
+
 **Si** la opcion es 5 el juego acaba
 ``` Java
     System.out.println("\n-x------------------------- ADIOS T-T ---------------------------x-\n");
 ```
------------------------------------------------------------------------------------------------------------------------------
+
 #### 6.3 Mostrando el Juego
 
 ``` Java
@@ -160,6 +160,7 @@ Esta funcion cuenta las minas que hay alrededor de la posición dada
     System.out.println("\n\tTienes " + i + " intentos");
         
 ```
+-----------------------------------------------------------------------------------------------------------------------------
  - Comienzo del juego
 Entrada de **x** & **y**
 ```Java
@@ -258,28 +259,17 @@ Entrada de **x** & **y**
                 tam = sc.nextInt();
                 switch (tam) {
                     case 1:
-                        n = 8;
-                        k = 1;
-                        break;
+                        n = 8; k = 1; break;
                     case 2:
-                        n = 10;
-                        k = 1;
-                        break;
+                        n = 10; k = 1; break;
                     case 3:
-                        n = 12;
-                        k = 1;
-                        break;
+                        n = 12; k = 1; break;
                     case 4:
-                        n = 16;
-                        k = 1;
-                        break;
+                        n = 16; k = 1; break;
                     case 5:
-                        k = 0;
-                        break;
+                        k = 0; break;
                 }
-                z = 0;
-                c = 0;
-                i = (n * n)/3;
+                z = 0; c = 0; i = (n * n)/3;
                 if (k == 1) {
                     llenar(n);
                     tnt(n);
